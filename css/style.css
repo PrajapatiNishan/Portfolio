@@ -98,6 +98,10 @@ body{
 	font-family: var(--primary-font);
 }
 
+img{
+    max-width: 100%;
+}
+
 .site-branding a {
     text-decoration: none;
     font-size: 24px;
@@ -223,18 +227,18 @@ header{
     margin-bottom: 40px;
 }
 
-/* .rotate {
-    width: 100px;
-    animation: rotation 20s infinite linear;
-  }
-
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  } */
-  
+.rota-anim-img{
+	position:absolute;
+	bottom: 300px;
+	right: 103px;
+	--size: 190px;
+	width:var(--size);
+	height:var(--size);
+}
+.rota-anim-img{
+	 -webkit-animation:spin 26s linear infinite;
+	 animation: spin 40s linear infinite;
+}
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
