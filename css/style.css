@@ -62,7 +62,7 @@
 }
 
 :root{
-    --primary-font:'Mukta';
+    --primary-font:'Mukta', sans-serif;
 }
 
 .container{
