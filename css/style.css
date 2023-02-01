@@ -70,3 +70,8 @@
 	margin: 0 auto;
 
 }
+
+body{
+	margin: 0;
+	font-family: var(--primary-font);
+}
