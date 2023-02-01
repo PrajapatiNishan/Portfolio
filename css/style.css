@@ -84,6 +84,7 @@
 :root{
     --primary-font:'Mukta', sans-serif;
     --primary-color:#252525;
+    --primary-color:#252525;
 }
 
 .container{
@@ -153,6 +154,14 @@ section.banner-section:before {
     bottom: 0;
     background: rgba(0,0,0,0.4);
     z-index: -1;
+}
+
+.butn a {
+    padding: 13px 42px;
+    background: #fff;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 15px;
 }
 
 header{
