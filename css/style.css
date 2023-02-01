@@ -1,4 +1,6 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+/* @font-face {
     font-family: 'Montserrat';
     src: url('font/Montserrat-Black.woff2') format('woff2'),
         url('font/Montserrat-Black.woff') format('woff');
@@ -77,10 +79,10 @@
     font-weight: 100;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 :root{
-    --primary-font:'Montserrat', sans-serif;
+    --primary-font:'Mukta', sans-serif;
     --primary-color:#252525;
 }
 
