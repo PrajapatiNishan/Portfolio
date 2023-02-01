@@ -151,3 +151,15 @@ header{
     z-index: 11;
 }
 
+.intro h1 {
+    font-size: 92px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.intro h2 {
+    font-size: 49px;
+    color: #fff;
+    font-weight: 600;
+}
+
