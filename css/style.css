@@ -162,6 +162,7 @@ section.banner-section:before {
     color: var(--primary-color);
     text-decoration: none;
     font-size: 15px;
+    font-weight: 500;
 }
 
 header{
@@ -217,6 +218,10 @@ header{
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
   }
+
+  .intro {
+    margin-bottom: 40px;
+}
   
   
 
