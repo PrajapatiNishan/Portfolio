@@ -134,7 +134,7 @@ ul.nav-lists li.nav-list a {
 }
 
 .banner-content {
-    padding: 200px 0;
+    padding: 300px 0;
 }
 
 section.banner-section {
@@ -155,6 +155,7 @@ header{
     font-size: 92px;
     color: #fff;
     font-weight: 600;
+    line-height: 95px;
 }
 
 .intro h2 {
@@ -165,13 +166,13 @@ header{
 
 .typed-out{
     overflow: hidden;
-    border-right: .15em solid orange;
+    border-right: .15em solid #252525;
     white-space: nowrap;
     animation: typewriter 4s steps(44) 1s 1 normal both,
                blinkTextCursor 500ms steps(44) infinite normal;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     display: inherit;
-    max-width: 240px;
+    max-width: 686px;
   }
   @keyframes typing {
     from { width: 0 }
