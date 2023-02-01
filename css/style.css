@@ -108,3 +108,13 @@ ul.nav-lists li.nav-list a {
     padding: 20px 0;
 }
 
+.banner-content {
+    padding: 200px 0;
+}
+
+section.banner-section {
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
