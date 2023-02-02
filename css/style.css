@@ -178,7 +178,7 @@ header{
 }
 
 .intro h1 {
-    font-size: 92px;
+    font-size: 87px;
     color: #fff;
     font-weight: 600;
     line-height: 95px;
@@ -198,9 +198,9 @@ header{
     white-space: nowrap;
     animation: typewriter 4s steps(44) 1s 1 normal both,
                blinkTextCursor 500ms steps(44) infinite normal;
-    font-size: 2.4rem;
+    font-size: 2.7rem;
     display: inherit;
-    max-width: 686px;
+    max-width: 782px;
   }
   @keyframes typing {
     from { width: 0 }
