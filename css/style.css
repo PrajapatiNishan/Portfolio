@@ -376,6 +376,13 @@ header{
     border: none;
 }
 
+.lodder .content a {
+    font-size: 17px;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+}
+
 /* lodder animation */
 .appear{
     position: relative;
