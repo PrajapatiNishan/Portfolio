@@ -427,3 +427,34 @@ header{
 /* end-of-loader annimation */
 
 /* end of about me section */
+
+/* start of black-banner-section */
+
+.black-banner .tear--bottom, .black-banner .tear--top{
+    position: relative;
+}
+.black-banner .bg--black{
+    background-color: #101010;
+    padding: 80px 0;
+}
+.tear--top img {
+    position: absolute;
+    bottom: 80px;
+}
+
+.tear--bottom img {
+    position: absolute;
+    top: 80px;
+}
+
+.bg--black h3 {
+    font-size: 54px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.black-banner-wrapper {
+    align-items: center;
+}
+/* end of black-banner-section */
