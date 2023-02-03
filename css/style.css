@@ -85,6 +85,8 @@
     --primary-font:'Mukta', sans-serif;
     --primary-color:#252525;
     --primary-color:#252525;
+    --secondary-color:#EE3E34;
+    --text-color:#2a2a2a;
 }
 
 .container{
@@ -299,5 +301,67 @@ header{
 .lodder .marker.upper:before {
     top: 0;
 }
+
+.section-heading h2 {
+    font-size: 65px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+}
+
+.content h3 {
+    font-size: 44px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+}
+
+.content p {
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.loader .img-content {
+    padding: 40px 0;
+}
+
+/* lodder animation */
+appear{
+    position: relative;
+    -webkit-transform: translateY(150px);
+        -ms-transform: translateY(150px);
+            transform: translateY(150px);
+    opacity: 0;
+    -webkit-transition: .5s all ease;
+    -o-transition: .5s all ease;
+    transition: .5s all ease;
+  }
+  
+  .appear.active{
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .fade-left{
+      -webkit-transform: translate3d(100px,0,0);
+              transform: translate3d(100px,0,0);
+      -webkit-transition: .5s all ease;
+      -o-transition: .5s all ease;
+      transition: .5s all ease;
+  }
+  
+  .fade-right{
+      -webkit-transform: translate3d(-100px,0,0);
+              transform: translate3d(-100px,0,0);
+      -webkit-transition: .5s all ease;
+      -o-transition: .5s all ease;
+      transition: .5s all ease;
+  }
+
+/* end-of-loader annimation */
 
 /* end of about me section */
