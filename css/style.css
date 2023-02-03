@@ -323,8 +323,57 @@ header{
     color: var(--text-color);
 }
 
-.loader .img-content {
+.lodder .img-content {
     padding: 40px 0;
+}
+
+.lodder-wrapper .bg-white:nth-child(2) .marker-index:before {
+    content: '2';
+/*     left: 30px; */
+}
+
+.lodder-wrapper .bg-white:nth-child(3) .marker-index:before {
+    content: '3';
+}
+
+.lodder-wrapper .bg-white:nth-child(4) .marker-index:before {
+    content: '4';
+/*     left: 30px; */
+}
+
+.lodder-wrapper .bg-white:nth-child(5) .marker-index:before {
+    content: '5';
+}
+.bg-white .container {
+    max-width: 1150px;
+}
+
+.bg-white.last-element .marker-line {
+    height: 150px;
+}
+
+.bg-white.last-element .marker-line:before {height: 100%;}
+
+.last-element .lower:after {
+    height: 100%  !important;
+}
+
+.last-element .marker-index {
+    height: 150px;
+}
+
+.last-element .marker {
+    background: #fff;
+    z-index: 1;
+}
+
+.last-element .marker-index:before {
+    font-size: 0;
+	bottom:-10px;
+}
+
+.last-element .marker {
+    border: none;
 }
 
 /* lodder animation */
