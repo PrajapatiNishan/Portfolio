@@ -87,12 +87,18 @@
     --primary-color:#252525;
     --secondary-color:#EE3E34;
     --text-color:#2a2a2a;
+    --default-gaps:120px;
+    
 }
 
 .container{
 	max-width: 1270px;
 	margin: 0 auto;
 
+}
+
+.def-gaps{
+    padding: var(--default-gaps) 0;
 }
 
 body{
@@ -313,7 +319,7 @@ header{
 .content h3 {
     font-size: 44px;
     font-weight: 700;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-bottom: 0.5rem;
     color: var(--secondary-color);
 }
