@@ -537,6 +537,7 @@ header{
 
 section.skills {
     background-color: #F0F0F1;
+    padding: var(--default-gaps) 0;
 }
 
 .skill-content {
