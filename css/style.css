@@ -596,3 +596,50 @@ section.skills {
 }
 
 /* end of skills section */
+
+/* start of video-sec */
+
+.yt-video {
+    position: absolute;
+    top: 23px;
+    left: 83px;
+    width: 537px;
+    height: 337px;
+}
+
+.lap-section {
+    position: relative;
+}
+
+.lap img {
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.yt-video > iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.lap {
+    /* align-items: end; */
+    /* display: flex; */
+}
+
+.row.video-wrapper {}
+
+.video-wrapper .col-lg-8 {
+    justify-content: end;
+    display: flex;
+}
+
+section.video-section {
+    padding: var(--default-gaps) 0;
+}
+
+section.video-section h2 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
