@@ -14,4 +14,11 @@ function reveal() {
   }
   
   window.addEventListener("scroll", reveal);
-  
+
+
+  $('.skills-wrapper').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  });
+      
