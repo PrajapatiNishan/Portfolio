@@ -703,7 +703,8 @@ section.titling-card-section {
   .tilting-card-wrapper {
     position: relative;
     width: 15rem;
-    aspect-ratio: 1 / 2;
+    aspect-ratio: 2 / 3;
+    /* aspect-ratio: 1/2; */
   }
   
   .tilting-card-body {
@@ -920,44 +921,14 @@ ul.social-list a {
 
 /* end of footer */
 
-.mouse {
-    position: relative;
-    border-radius: 14px;
-    border: 2px solid #fff;
-    width: 24px;
-    height: 40px;
-    top: 125px;
-    margin-left: auto;
-    margin-right: auto;
+.vid-btn a {
+    text-decoration: none;
+    background: var(--primary-color);
     color: #fff;
-    display: block;
-    cursor: pointer;
+    padding: 14px 25px;
+    font-size: 15px;
 }
 
-.wheel {
-    position: relative;
-    border-radius: 10px;
-    width: 2px;
-    height: 5px;
-    top: 4px;
-    margin: 0 auto;
-    background: #37dba9;
-    animation: drop 1s linear running infinite;
-    -webkit-animation: drop 1s linear running infinite;
-    -moz-animation: drop 1s linear running infinite;
-}
-
-@keyframes drop {
-    0% {
-        top: 5px;
-        opacity: 0;
-    }
-    30% {
-        top: 10px;
-        opacity: 1;
-    }
-    100% {
-        top: 17px;
-        opacity: 0;
-    }
+.vid-btn {
+    margin-top: 40px;
 }
