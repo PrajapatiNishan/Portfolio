@@ -787,7 +787,58 @@ section.titling-card-section .section-heading h2 {
 
 section.titling-card-section .section-heading p {
     text-align: left;
-    max-width: 500px;0%; */
-    ;
+    max-width: 500px;
     margin: inherit;
+}
+
+/* end of card-section */
+
+/* start of contact us */
+.form-group input {
+    padding: 18px 30px !important;
+    background: transparent;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group textarea {
+    padding: 18px 30px !important;
+    background: transparent;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 15px;
+    height: 180px;
+    border-radius: 3px;
+}
+
+section.contact {
+    background: #fafafa;
+    padding: var(--default-gaps);
+}
+
+.form-wrap {
+    background: #fff;
+    padding: 90px;
+}
+
+section.contact .container {
+    max-width: 1000px;
+}
+
+.sbm-btn a {
+    background: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 42px;
+}
+
+.sbm-btn {
+    margin-top: 19px;
+    text-align: center;
 }
