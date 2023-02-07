@@ -575,7 +575,23 @@ section.skills {
     text-decoration: none;
     color: var(--primary-color);
     text-transform: capitalize;
+    align-items: center;
 }
 
+.len-more a {
+    display: flex;
+}
+
+.skills .len-more a .tran-icon i {
+    position: relative;
+    left: 12px;
+    top: 0px;
+    font-size: 14px;
+}
+
+.skills .len-more a:hover i {
+    left: 20px;
+    transition: all 0.5s ease;
+}
 
 /* end of skills section */
