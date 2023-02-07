@@ -21,4 +21,27 @@ function reveal() {
     slidesToShow: 3,
     slidesToScroll: 3
   });
-      
+
+  // $(function() {
+  //   $('.scroll-down').click (function() {
+  //     $('html, section.about-me').animate({scrollTop: $('section.about-me').offset().top }, 'slow');
+  //     return false;
+  //   });
+  // });
+
+  // $(document).ready(function() {
+  //   //   Create a function
+  //   $(".scroll-down").click(function(event) {
+  //     //       Select the body of the page and scroll down by 650 pixels worth
+  //     $("html, body").animate({ scrollDown: "+=650px" }, 800);
+  //   });
+  // });
+
+  // $('.scroll-down').on("click",function(e){
+  //   e.preventDefault();
+  //   var target = $( $(this).attr("href") );
+    
+  //   if(target.length){
+  //     $("html, body").animate({ scrollTop: target.offset().top },400,"easeInOutQuad");
+  //   }
+  // });
