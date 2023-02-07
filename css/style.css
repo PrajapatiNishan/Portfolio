@@ -532,3 +532,50 @@ header{
   
 
 /* end of project */
+
+/* start of skills section*/
+
+section.skills {
+    background-color: #F0F0F1;
+}
+
+.skill-content {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.skills-wrapper > div {
+    margin-bottom: 30px;
+}
+
+.skill-content .logo-holder {
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+
+.skill-content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.skill-content p {
+    color: #656565;
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.skills .len-more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills .len-more a {
+    text-decoration: none;
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+
+
+/* end of skills section */
