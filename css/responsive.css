@@ -232,4 +232,13 @@
             .form-wrap {
                 padding: 50px !important;
             }
+
+            .rota-anim-img {
+                bottom: 150px !important;
+                right: 270px !important;
+            }
+            
+            .tear--bottom img {
+                top: 77px !important;
+            }
       }
