@@ -250,8 +250,8 @@
 
 @media only screen and (max-width: 540px) {
     .intro h1 {
-        font-size: 40px !important;
-        line-height: 45px !important;
+        font-size: 33px !important;
+        line-height: 40px !important;
     }
     
     .hamburger-menu {
@@ -259,10 +259,10 @@
     }
     
     .typed-out {
-        max-width: 371px !important;
+        max-width: 307px !important;
     }
     
-    .rota-anim-img {--size: 130px;bottom: 55px !important;right: 150px !important;}
+    .rota-anim-img {--size: 130px !important;bottom: 55px !important;right: 136px !important;}
     
     .butn a {
         padding: 10px 35px;
@@ -296,19 +296,49 @@
         font-size: 32px !important;
     }
 
-    .image-rep{
-        display: block;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        background: url(image/Group_15541.png) no-repeat;
-        width: 180px;
-        height: 236px;
-        content: url("image/Group_15541.png");
-
+    img.image-rep {
+        display: none !important;
+    }
+    
+    img.mobile {
+        display: inherit !important;
+    }
+    
+    .lap img {
+        width: 218px !important;
+        height: 445px !important;
+    }
+    
+    .yt-video {
+        height: 403px !important;
+        width: 191px !important;
+        top: 17px !important;
+        left: 14px !important;
+    }
+    
+    .video-wrapper .col-lg-8 {
+        justify-content: center !important;
     }
 
-    .lap:before{
-        background: url(image/Group_15541.png);
-        content: "";
+    section.black-banner {}
+
+    .black-banner-wrapper > div:nth-child(1) {
+        margin-bottom: 35px;
     }
+
+    .black-banner-wrapper h3 {
+        font-size: 31px !important;
+        /* text-align: center !important; */
+        justify-content: center;
+    }
+
+    .black-banner-wrapper div:nth-child(2) {
+        text-align: center !important;
+    }
+
+    .banner-content {
+        padding: 250px 0 !important;
+    }
+
+
 }
