@@ -822,7 +822,7 @@ section.titling-card-section .section-heading p {
 
 section.contact {
     background: #fafafa;
-    padding: var(--default-gaps);
+    padding: var(--default-gaps) 0;
 }
 
 .form-wrap {
@@ -932,4 +932,8 @@ ul.social-list a {
 
 .vid-btn {
     margin-top: 40px;
+}
+
+img.mobile {
+    display: none;
 }

@@ -242,3 +242,73 @@
                 top: 77px !important;
             }
       }
+
+      
+/* end of tablet responsive */
+
+/* start of mobile responsive */
+
+@media only screen and (max-width: 540px) {
+    .intro h1 {
+        font-size: 40px !important;
+        line-height: 45px !important;
+    }
+    
+    .hamburger-menu {
+        right: 27px;
+    }
+    
+    .typed-out {
+        max-width: 371px !important;
+    }
+    
+    .rota-anim-img {--size: 130px;bottom: 55px !important;right: 150px !important;}
+    
+    .butn a {
+        padding: 10px 35px;
+    }
+    
+    .section-heading h2 {
+        font-size: 35px !important;
+    }
+    
+    .content h3 {
+        font-size: 28px !important;
+    }
+    
+    .content p {
+        font-size: 17px Im !important;
+    }
+    
+    section.video-section h2 {
+        font-size: 35px !important;
+    }
+    
+    section.titling-card-section .section-heading p {
+        font-size: 17px !important;
+    }
+    
+    .form-wrap {
+        padding: 40px !important;
+    }
+    
+    .top-container h2 {
+        font-size: 32px !important;
+    }
+
+    .image-rep{
+        display: block;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: url(image/Group_15541.png) no-repeat;
+        width: 180px;
+        height: 236px;
+        content: url("image/Group_15541.png");
+
+    }
+
+    .lap:before{
+        background: url(image/Group_15541.png);
+        content: "";
+    }
+}
